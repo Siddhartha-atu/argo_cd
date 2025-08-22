@@ -12,6 +12,8 @@ spec:
     metadata:
       labels:
         app: mysql-app
+      annotations:
+        argocd-sync-timestamp: "2025-08-22T12:00:00Z"
     spec:
       initContainers:
       - name: init-mysql
